@@ -1,0 +1,15 @@
+setup.cfg
+setup.py
+sc_generic_plugin/__init__.py
+sc_generic_plugin/admin.py
+sc_generic_plugin/forms.py
+sc_generic_plugin/models.py
+sc_generic_plugin/urls.py
+sc_generic_plugin/views.py
+sc_generic_plugin/migrations/0001_initial.py
+sc_generic_plugin/migrations/0002_remove_genericalertplugin_active_status.py
+sc_generic_plugin/migrations/__init__.py
+sc_telegram_plugin_v4.egg-info/PKG-INFO
+sc_telegram_plugin_v4.egg-info/SOURCES.txt
+sc_telegram_plugin_v4.egg-info/dependency_links.txt
+sc_telegram_plugin_v4.egg-info/top_level.txt

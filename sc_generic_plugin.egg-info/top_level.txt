@@ -1,0 +1,1 @@
+sc_generic_plugin
