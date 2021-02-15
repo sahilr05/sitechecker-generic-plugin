@@ -3,5 +3,5 @@ Add alert related operations here
 """
 
 
-def send_alert(bot, message, user):
+def send_alert(message, user):
     pass

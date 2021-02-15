@@ -11,4 +11,4 @@ class GenericAlertForm(forms.ModelForm):
                 attrs={"class": "form-control", "type": "number", "min": 1}
             )
         }
-        fields = ("user_id",)
+        fields = ("user_id", "active_status")

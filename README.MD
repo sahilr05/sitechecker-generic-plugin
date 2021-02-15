@@ -4,25 +4,23 @@ Generic plugin template for Site Checker <br/>
 Checkout [Sitechecker Telegram plugin](https://github.com/sahilr05/sitechecker-telegram-plugin)
 
 ## Creating custom plugin
-* Go to ```models.py``` and replace ```generic``` with your plugin name wherever mentioned. <br/>
-Eg. ```url = "accounts:telegram_plugin:telegram_pluginview"``` <br/>
-  Configure ```def send_alert_task(task_obj)```
-* Go to ```forms.py, views.py, urls.py, admin.py ``` and replace ```generic``` with your plugin name
+* Replace ```generic``` with your plugin name wherever mentioned. <br/>
+  Eg. ```url = "accounts:telegram_plugin:telegram_pluginview"``` <br/>
 
-
+* Configure ```send_alert``` function in ```plugin.py```
 
 ## How to install
 
-* Run 
+* Run following command to create package
 ```
 python setup.py sdist
 ```
-Find python package in dist and run
+* Find python package in dist and run
 ```
 pip install sc_generic_plugin.tar.gz
 ```
 
-## Integrating in SiteChecker
+## Integrating with SiteChecker
 
 * Add sc_generic_plugin in settings > INSTALLED_APPS
 
